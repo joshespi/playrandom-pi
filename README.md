@@ -5,7 +5,8 @@ The initial concept was inspired by my grandmother, who faced challenges operati
 Later on, we expanded the use of this setup to assist our son with Autism in managing the TV he used. Additionally, we integrated choices and functionalities from the repository found at https://github.com/Provo-City-School-District/pcsd-tvcontrol-pi. We modified the commands to utilize CEC controls for switching inputs on the TV.
 
 
-
+my current crontab schedule for the TV
+```*/5 * * * * /bin/bash /home/joshe/tv_control.sh```
 
 ## Changes
 ### 1.01
